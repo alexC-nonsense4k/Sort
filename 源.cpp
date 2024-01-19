@@ -121,7 +121,7 @@ namespace StableSort
 		nums.swap(tmp);
 	}
 
-	void InserSort(vector<int>& nums)
+	void InsertSort(vector<int>& nums)
 	{
 		for (int i = 1; i < nums.size(); i++)
 		{
